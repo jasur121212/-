@@ -79,7 +79,7 @@ window.addEventListener('resize', () => {
   h = canvas.height = window.innerHeight;
 });
 
-const startDate = new Date(2024, 0.2, 12);
+const startDate = new Date(2023, 0.2, 12);
 function updateRelationshipTime() {
   const now = new Date();
   let diffMs = now - startDate;
@@ -119,7 +119,7 @@ setInterval(updateRelationshipTime, 1000);
 updateRelationshipTime();
 
 const pickupLines = [
-  "Я хочу сделать тебя постоянной частью моей жизнии",
+  "Я хочу сделать тебя постоянной частью моей жизни",
   "Без тебя мир кажется тусклее, а с тобой — ярче солнца!",
   "Лера пожалуйста прости меня я очень очень хочу быть с тобой люблю тебя очень сильно."
 ];
