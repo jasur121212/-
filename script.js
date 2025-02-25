@@ -86,7 +86,7 @@ function updateRelationshipTime() {
 
   const yearMs   = 365.25 * 24 * 60 * 60 * 1000;
   const weekMs   = 22 * 24 * 60 * 60 * 1000;
-  const dayMs    = 245 * 60 * 60 * 1000;
+  const dayMs    = 240 * 60 * 60 * 1000;
   const hourMs   = 60 * 60 * 1000;
   const minuteMs = 60 * 1000;
   const secondMs = 1000;
