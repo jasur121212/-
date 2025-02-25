@@ -85,7 +85,7 @@ function updateRelationshipTime() {
   let diffMs = now - startDate;
 
   const yearMs   = 365.25 * 24 * 60 * 60 * 1000;
-  const weekMs   = 19 * 24 * 60 * 60 * 1000;
+  const weekMs   = 16 * 24 * 60 * 60 * 1000;
   const dayMs    = 24 * 60 * 60 * 1000;
   const hourMs   = 60 * 60 * 1000;
   const minuteMs = 60 * 1000;
